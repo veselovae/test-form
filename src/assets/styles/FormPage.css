@@ -1,0 +1,108 @@
+.form {
+    position: relative;
+    padding-top: 106px;
+    max-width: 616px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: calc(100% - 76px);
+}
+
+.form-personal-data {
+    margin-bottom: 33px;
+}
+
+h6.form-personal-header,
+h6.form-children-header {
+    font-weight: 500;
+    font-size: 16px;
+    color: #111111;
+}
+
+.form-personal-header {
+    margin-bottom: 20px;
+}
+
+.personal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-children-data {
+    margin-bottom: 30px;
+}
+
+.children-header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 48px;
+}
+
+.form-children-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-child {
+    width: 100%;
+    display: flex;
+    gap: 18px;
+}
+
+.add-btn {
+    padding: 10px 20px;
+    color: #01a7fd;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    border-radius: 100px;
+    border: 2px solid #01a7fd;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.add-btn:disabled {
+    cursor: not-allowed;
+}
+
+.save-btn {
+    background-color: #01a7fd;
+    border-radius: 100px;
+    padding: 10px 20px;
+    border: none;
+    color: #ffffff;
+    height: 44px;
+    width: 118px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.save-btn:hover {
+    background-color: #0597e0;
+}
+
+.delete-btn {
+    color: #01a7fd;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.delete-btn:disabled {
+    cursor: not-allowed;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    appearance: none;
+    -moz-appearance: textfield;
+}
